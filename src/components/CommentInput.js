@@ -6,17 +6,17 @@ import '../styles/style.css';
 import {BOX_WIDTH, FIELD_WIDTH, FIELD_HEIGHT} from '../constants/constants.js';
 
 function CommentInput( {addComment} ) {
+	const onButtonClick = (event) => {
+		addComment(
+			event, 
+			event.target.newAuthor.value,
+			event.target.newText.value
+		)
+		event.target.newAuthor.value = ``;
+		event.target.newText.value = ``;
+	}; 
 	return(
-		<form onSubmit={ event => {
-				addComment(
-					event, 
-					event.target.newAuthor.value,
-					event.target.newText.value
-				)
-				event.target.newAuthor.value = ``;
-				event.target.newText.value = ``;
-			} 
-		}>
+		<form onSubmit={onButtonClick}>
 			<input 
 				name='newAuthor'
 				type='text' 
@@ -31,7 +31,7 @@ function CommentInput( {addComment} ) {
 			/>
 			<input className='button' type='submit' value='Добавить' />
 		</form>
-	) 
+	)
 }
 
 CommentInput.propTypes = {
