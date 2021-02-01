@@ -3,7 +3,6 @@
 export const BOX_WIDTH = 48;
 export const FIELD_WIDTH = 50;
 export const FIELD_HEIGHT = 5;
-export const STORAGE_COMMENTS = `oldComments`;
 export const START_POSITION = 0;
 export const LENGTH = 19;
 export const SYMBOL_T = `T`;
