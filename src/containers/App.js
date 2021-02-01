@@ -4,7 +4,6 @@ import React from 'react';
 import {connect} from 'react-redux';
 import CommentInput from '../components/CommentInput.js';
 import CommentsList from '../components/CommentsList.js';
-import {STORAGE_COMMENTS} from '../constants/constants.js';
 import {addComment, deleteComment} from '../actions';
 
 function App( {comments, addComment, deleteComment} ) {
