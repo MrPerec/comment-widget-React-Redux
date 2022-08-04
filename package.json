@@ -4,8 +4,8 @@
   "description": "Comment widget with React-Redux",
   "main": "index.js",
   "scripts": {
+    "server": "webpack-dev-server",
     "dev": "webpack --mode=development --config webpack.config.js",
-    "serve": "webpack-dev-server",
     "build": "webpack --mode=production --config webpack.config.js"
   },
   "browserslist": "> 0.25%, not dead",
