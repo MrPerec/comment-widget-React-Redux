@@ -1,7 +1,7 @@
 {
-  "name": "16.8_home_work_for_redux",
+  "name": "comment-widget-React-Redux,
   "version": "1.0.0",
-  "description": "Home work for Redux",
+  "description": "Comment widget with React-Redux",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode=development --config webpack.config.js",
@@ -14,7 +14,7 @@
     "webpack",
     "javascript"
   ],
-  "author": "Makshanov Ilya <for@example.com>",
+  "author": "Makshanov Ilya <mrperec@yandex.com>",
   "license": "SPDX",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
