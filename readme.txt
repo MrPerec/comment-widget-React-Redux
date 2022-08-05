@@ -4,7 +4,7 @@ He can do the following:
 1. Displaying a list of comments: author, text, date and time;
 2. Adding a new comment;
 3. Deleting a comment;
-4. Saving the application state in Redux store which one saving in localStorage in JSON format (when the page is reloaded, all added comments are loaded from there).
+4. Saving the application state in Redux. When the page is reloaded, all added comments are pulled from localStorage in JSON format.
 
 To run the application, you need to build it using webpack and other libraries, for this, follow these steps
 1. Install packages "npm install";
