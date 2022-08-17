@@ -1,4 +1,4 @@
-#Comment widget
+# Comment widget
 
 This is a comment widget made with React and Redux.
 
